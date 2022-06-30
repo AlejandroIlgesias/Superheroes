@@ -53,4 +53,13 @@ if type(identidadsecreta)==str:
  self.energía=escenario.vida*self.tipo.resistencia
 
         self.vivo=True
+   def is_alive(self):
+        if self.vivo==True:
+            return True
+        else:
+            return False
+    def die(self):
+        self.vivo=False
+
+
  
