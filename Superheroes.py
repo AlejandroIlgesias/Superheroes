@@ -16,6 +16,8 @@ class Extraterrestre():
         self.fuerza=randint(1,7)
         self.velocidad=randint(1,7)
         self.resistencia=randint(3,7)
+        self.proyeccionenergia=randint(1,7)
+        self.habilidadeslucha=randint(3,6)
   
 
     
