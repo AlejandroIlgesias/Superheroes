@@ -42,4 +42,11 @@ if type(identidadsecreta)==str:
         else:
             raise TypeError
             
-  
+ if type(tipo)==object:
+            self.tipo=tipo
+        else:
+            raise TypeError
+        if type(escenario)==object:
+            self.coste=(escenario.monedas/escenario.equipo)*(self.tipo.total/30)
+        else:
+            raise TypeError  
