@@ -9,6 +9,7 @@ class Organizacion():
       else:
             raise TypeError
       if type(miembros)==list:
+        if type(escenario)==object:
           
               
         
