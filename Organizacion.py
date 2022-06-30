@@ -11,6 +11,8 @@ class Organizacion():
       if type(miembros)==list:
         if type(escenario)==object:
           self.miembros=escenario.equipo
+        else:
+                raise TypeError
           
               
         
