@@ -15,6 +15,8 @@ class Organizacion():
                 raise TypeError
       else:
             raise TypeError
+      def get_organizacion(self):
+        
           
           
               
