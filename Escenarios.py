@@ -14,5 +14,6 @@ class XavierSchoolForGiftedYoungsters():
   self.monedas=80000
   self.equipo=30
   self.movimientos=40
+  self.vida=300
   
     
