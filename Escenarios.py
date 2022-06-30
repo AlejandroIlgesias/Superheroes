@@ -8,4 +8,5 @@ class StarkTower():
   def __init__(self):
     self.monedas=20000
     self.equipo=20
+    self.movimientos=25
     
