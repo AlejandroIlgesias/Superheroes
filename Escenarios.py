@@ -7,4 +7,5 @@ class SanctumSantorum():
 class StarkTower():
   def __init__(self):
     self.monedas=20000
+    self.equipo=20
     
