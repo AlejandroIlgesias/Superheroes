@@ -12,6 +12,10 @@ class Humano():
     
 class Extraterrestre():
   def __init__(self):
+     self.inteligencia=randint(4,6)
+        self.fuerza=randint(1,7)
+        self.velocidad=randint(1,7)
+        self.resistencia=randint(3,7)
   
 
     
