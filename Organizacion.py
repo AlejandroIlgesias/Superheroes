@@ -13,6 +13,9 @@ class Organizacion():
           self.miembros=escenario.equipo
         else:
                 raise TypeError
+      else:
+            raise TypeError
+          
           
               
         
