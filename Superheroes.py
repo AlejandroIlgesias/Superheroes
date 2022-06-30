@@ -20,6 +20,12 @@ class Extraterrestre():
         self.habilidadeslucha=randint(3,6)
         self.total=self.inteligencia+self.fuerza+self.velocidad+self.resistencia+self.proyeccionenergia+self.habilidadeslucha
  class Superheroe():
+  def __init__(self,identificador,alias,identidadsecreta,conjuntodemovimientos,tipo,escenario):
+        if type(identificador)==int:
+           self.identificador=identificador
+        else:
+            raise TypeError
+ 
   
 
         
