@@ -19,6 +19,14 @@ class Organizacion():
         return self.nombre
       def get_miembros(self):
         return str(self.miembros[0])+str(self.miembros[1])+str(self.miembros[2])
+      def  is_undefeated(self):
+        pass
+
+    def surrender(self):
+        pass
+    def __str__(self):
+        return 
+
       
         
           
