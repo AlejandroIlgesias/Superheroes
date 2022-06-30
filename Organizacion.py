@@ -18,6 +18,8 @@ class Organizacion():
       def get_organizacion(self):
         return self.nombre
       def get_miembros(self):
+        return str(self.miembros[0])+str(self.miembros[1])+str(self.miembros[2])
+      
         
           
           
