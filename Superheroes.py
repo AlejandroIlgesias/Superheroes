@@ -11,6 +11,7 @@ class Humano():
     self.total=self.inteligencia+self.fuerza+self.velocidad+self.resistencia+self.proyeccionenergia+self.habilidadeslucha
     
 class Extraterrestre():
+  def __init__(self):
   
 
     
