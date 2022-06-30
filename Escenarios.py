@@ -4,4 +4,6 @@ class SanctumSantorum():
     self.equipo=10
     self.movimientos=10
     self.vida=100
+class StarkTower():
+  def __init__(self):
     
