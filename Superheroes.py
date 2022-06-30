@@ -26,7 +26,11 @@ class Extraterrestre():
         else:
             raise TypeError
  
-  
+ if type(alias)==str:
+            self.alias=alias
+        else:
+            raise TypeError
+         
 
         
 
