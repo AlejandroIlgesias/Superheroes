@@ -11,3 +11,4 @@ class Humano y Extraterrestre
 Poseen los mismos atributos,cada uno de ellos recibe un valor aleatorio entre el rango de valores fijo asignado,a la hora de crear una instancia.
 
 class superheroe
+Define cada uno de los atrubutos de tal forma que si la condición del if es falsa lanza una excecpión.El escenario es uno de los 3 objetos definidos en la clase Escenarios.
