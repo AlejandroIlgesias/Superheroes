@@ -3,5 +3,9 @@ class Organizacion():
      organizaciones=["A-Force", "Avengers", "Mercs for Money","League of Realms", "Strange Academy" ,"X-Men"]
       if type(nombre)==str:
             if nombre in organizaciones:
+              self.nombre=nombre
+           else:
+              raise ValueError
+              
         
 
