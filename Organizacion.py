@@ -8,6 +8,7 @@ class Organizacion():
               raise ValueError
       else:
             raise TypeError
+      if type(miembros)==list:
           
               
         
