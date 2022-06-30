@@ -6,6 +6,9 @@ class Organizacion():
               self.nombre=nombre
            else:
               raise ValueError
+      else:
+            raise TypeError
+          
               
         
 
