@@ -13,5 +13,6 @@ class StarkTower():
 class XavierSchoolForGiftedYoungsters():
   self.monedas=80000
   self.equipo=30
+  self.movimientos=40
   
     
