@@ -37,5 +37,9 @@ if type(identidadsecreta)==str:
             raise TypeError
         
 
-    
+  if type(conjuntodemovimientos)==dict:
+            self.conjuntodemovimientos=conjuntodemovimientos
+        else:
+            raise TypeError
+            
   
