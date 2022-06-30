@@ -10,4 +10,6 @@ class StarkTower():
     self.equipo=20
     self.movimientos=25
     self.vida=200
+class XavierSchoolForGiftedYoungsters():
+  
     
