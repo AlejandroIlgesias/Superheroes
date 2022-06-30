@@ -50,3 +50,7 @@ if type(identidadsecreta)==str:
             self.coste=(escenario.monedas/escenario.equipo)*(self.tipo.total/30)
         else:
             raise TypeError  
+ self.energía=escenario.vida*self.tipo.resistencia
+
+        self.vivo=True
+ 
