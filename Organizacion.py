@@ -17,6 +17,7 @@ class Organizacion():
             raise TypeError
       def get_organizacion(self):
         return self.nombre
+      def get_miembros(self):
         
           
           
