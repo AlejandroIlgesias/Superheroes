@@ -9,6 +9,9 @@ class Humano():
     self.proyeccionenergia=randint(1,6)
     self.habilidadeslucha=randint(1,7)
     self.total=self.inteligencia+self.fuerza+self.velocidad+self.resistencia+self.proyeccionenergia+self.habilidadeslucha
+    
+class Extraterrestre():
+  
 
     
   
