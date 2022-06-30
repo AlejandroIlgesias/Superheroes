@@ -7,4 +7,5 @@ class Humano():
     self.velocidad=randint(2,5)
     self.resistencia=randint(2,5)
     self.proyeccionenergia=randint(1,6)
+    self.habilidadeslucha=randint(1,7)
   
