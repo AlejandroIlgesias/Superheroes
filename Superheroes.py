@@ -31,7 +31,10 @@ class Extraterrestre():
         else:
             raise TypeError
          
-
+if type(identidadsecreta)==str:
+            self.identidadsecreta=identidadsecreta
+        else:
+            raise TypeError
         
 
     
